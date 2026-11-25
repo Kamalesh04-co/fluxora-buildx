@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+fluxora_db.json
+.vscode/

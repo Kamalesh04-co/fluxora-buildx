@@ -1,0 +1,54 @@
+/* Main App Background & Typography */
+.stApp {
+    background: linear-gradient(180deg, #07131f 0%, #0b1e30 100%);
+    color: #e6f1ff;
+}
+
+/* Header & Title Accent */
+h1, h2, h3 {
+    color: #38bdf8 !important;
+    font-weight: 700 !important;
+}
+
+/* Metric Cards */
+div[data-testid="stMetric"] {
+    background-color: rgba(15, 39, 64, 0.85);
+    border: 1px solid #1e4976;
+    border-radius: 10px;
+    padding: 14px 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+div[data-testid="stMetricLabel"] {
+    color: #94a3b8 !important;
+}
+
+div[data-testid="stMetricValue"] {
+    color: #38bdf8 !important;
+}
+
+/* Primary Action Buttons */
+button[kind="primary"] {
+    background: linear-gradient(90deg, #0284c7 0%, #0ea5e9 100%) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+}
+
+button[kind="primary"]:hover {
+    background: linear-gradient(90deg, #0369a1 0%, #0284c7 100%) !important;
+}
+
+/* Tab Bar Styling */
+button[data-baseweb="tab"] {
+    font-weight: 600 !important;
+    border-radius: 6px 6px 0 0 !important;
+}
+
+/* Bordered Containers */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: rgba(12, 31, 51, 0.75);
+    border: 1px solid #1e3a5f !important;
+    border-radius: 10px;
+}

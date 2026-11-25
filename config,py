@@ -2,7 +2,7 @@ import os
 import requests
 
 # Replace with your Firebase Web API Key (or set via environment variable)
-FIREBASE_API_KEY = os.getenv("FIREBASE_API_KEY", "YOUR_FIREBASE_WEB_API_KEY")
+FIREBASE_API_KEY = os.getenv("FIREBASE_API_KEY", "AIzaSyB27WVbmU-EjelkqOUdnABEhyvhM7li4ag")
 OLLAMA_MODEL = "gemma3"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 DB_FILE = "fluxora_db.json"
